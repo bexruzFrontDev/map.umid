@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 95%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.uu1{
+    display: flex;
+ align-items: center;
+ justify-content: space-between;
+    gap: 30px;
+    .center{
+        img{
+            width: 100px;
+            border-radius: 50%;
+        }
+    }
+    .n-right{
+        margin-top: 20px;
+        input{
+            width: 200px;
+            height: 40px;
+            padding-left: 10px;
+            border: none;
+            border-radius: 8px
+        }
+    }
+}
+.n-left{
+    margin-top: 20px;
+    a{
+        text-decoration: none;
+        font-size: 20px;
+        color: #000;
+        cursor: pointer;
+        padding: 0 5px;
+    }
+}
+header{
+    background: url(https://www.alibimenstyle.uz/storage/banners//zQPPCoLMrp3jFzUtzBHszFTHdAW7CqbbJgLVjDc7.jpg);
+    text-align: center;
+    color: #fff;
+    padding: 400px;
+}
+.main{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 20px;
+    .card{
+        margin-top: 20px;
+        border: 2px solid rgb(223, 220, 220);
+        border-radius: 10px;
+        padding: 10px 10px;
+        text-align: center;
+        cursor: pointer;
+        h1{
+            font-size: 30px;
+            font-weight: 800;
+            margin-top: 10px;
+        }
+        img{
+            width: 100%;
+        }
+        p{
+            font-size: 18px;
+            font-weight: 700;
+            margin: 10px 0;
+        }
+        b{
+            font-size: 18px;
+            font-weight: 700;
+        }
+    }
+}
